@@ -2,7 +2,7 @@
 Code base for stock prediction project for Computational Data Science SUTD ISTD Term 6
 
 ## Scrapper Support
-* [MontlyFool](fool.com)
+* [MotleyFool](fool.com)
 * [Investopedia](investopedia.com)
 * [Reuters](reuters.com)
 * [CNBC](cnbc.com)
