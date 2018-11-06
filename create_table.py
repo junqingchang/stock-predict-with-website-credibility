@@ -2,8 +2,8 @@
 
 from  mysql.connector import connection
 
-cnx = connection.MySQLConnection(user="admin", password='password',
-                                 host='127.0.0.1', database='stockPredict')
+cnx = connection.MySQLConnection(user="admin", password='stockPredict',
+                                 host='localhost', database='stockpredict')
 
 
 mytable = '''CREATE TABLE stocks (Site  varchar(50),

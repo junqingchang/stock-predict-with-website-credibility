@@ -7,19 +7,19 @@ import glob
 import os
 import pdb
 
-cnx = connection.MySQLConnection(user="admin", password='password',
-                                 host='localhost', database='stockPredict')
+cnx = connection.MySQLConnection(user="admin", password='stockPredict',
+                                 host='localhost', database='stockpredict')
 
 
 
 insert_stock = ( "INSERT INTO stocks "
                  "(Site, Author, Title, Text, StartDate, EndDate)"
-                 "VALUES( %s, %s, %s, %s, %s, %s, %s, %s)" )
+                 "VALUES( %s, %s, %s, %s, %s, %s)" )
 
 cursor = cnx.cursor()
 fcount = 0
 
-for pathname in glob.glob('Stocks/*.txt'):
+for pathname in glob.glob('selectedData/*.txt'):
 
     fcount += 1
     if count > 20: break  # for testing, we try 20 files 
