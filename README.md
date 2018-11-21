@@ -3,10 +3,15 @@ Code base for stock prediction project for Computational Data Science SUTD ISTD 
 
 ## Code Description
 Sentiment - sentiment analyzer test
+
 GoogleScrape - Scrapper tool
+
 dataAugment - Data arranging tool for processedSelected
+
 bowSentiment - Mine data cleaning plus appending sentiment score
+
 Pairing - Combining mined data with selected data and calculates sentiment and individual credibility score
+
 FinalFrameProduction - Produces finaldata, combines all credibility score to get a general credibility score, and concat all data
 
 ## Scrapper Support
@@ -18,9 +23,13 @@ FinalFrameProduction - Produces finaldata, combines all credibility score to get
 
 ## Datasets
 selectedData - Data from [Huge Stock Market Dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
+
 mined - Data obtained from mining news articles
+
 processedSelected - Selected Data arranged in running order, aligned with mined data
+
 scoredSelected - Scored selected data with sentiment and credibility score
+
 finaldata.csv(inside modellingfiles) - Final dataset used for modelling
 
 ## Authors
