@@ -1,5 +1,6 @@
 # Stock Prediction with News Input
 Code base for stock prediction project for Computational Data Science SUTD ISTD Term 6
+
 Project Report: https://github.com/junqingchang/stockPredict/blob/master/CDS_Report.pdf
 
 ## Code Description
